@@ -1,11 +1,11 @@
 # --Music-Genre-Classification-in-Pytorch
 The identification and understanding of sound are an important activity in  several challenges in the context of multimedia processing, since music is present in  people’s daily lives, there are countless musical genres, and each person has their  preference. 
 
-# -- Problem Description
+# Problem Description
 The main objective is to automatically classify musical genres from audio files. For this task, a dataset called GTZAN, known as the MINIST of audio files, was made available.
 For this project, a convolutional neural network (CNN) will be used to predict musical style from a piece of music through images of audio files that have been converted into Mel spectrograms. To evaluate the model, balanced accuracy, precision, recall, and F1 score metrics will be used, as well as visualization of predictions and incorrect classifications of the model, such as confusion matrix.
 
-# -- Project Description
+# Project Description
 
 Techniques Involved
 •	Image processing.
