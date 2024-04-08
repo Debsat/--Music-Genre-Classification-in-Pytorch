@@ -1,4 +1,4 @@
-# --Music-Genre-Classification-in-Pytorch
+# Music-Genre-Classification-in-Pytorch
 The identification and understanding of sound are an important activity in  several challenges in the context of multimedia processing, since music is present in  people’s daily lives, there are countless musical genres, and each person has their  preference. 
 
 # Problem Description
@@ -17,5 +17,6 @@ The dataset has three types of audio representations:
 •	Original Audios: a collection of 10 genres with 100 audio files each, all with a length of 30 seconds.
 •	Images: a visual representation for each 30s audio file.
 •	Feature files: these files contain features from the audio files for 30s and 3s.
+
 For this project, only the image dataset will be considered.
 https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification
