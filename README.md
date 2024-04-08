@@ -30,6 +30,29 @@ Only one `jazz` class file is missing, but it does not compromise class balance.
 
 ![image](https://github.com/Debsat/--Music-Genre-Classification-in-Pytorch/assets/114963575/dcaad424-c66e-448a-9488-828b0376d4c3)
 
+## Model
+
+### Resnet50
+
+![image](https://github.com/Debsat/--Music-Genre-Classification-in-Pytorch/assets/114963575/5ebf4298-f579-4622-ba55-f9459f6cbe9b)
+
+Observing the loss curves for training and validation, after 10 epochs the model did not suffer from overfitting but it appears that it will suffer with more epochs. Training accuracy increases and in validation it does not exceed 67%, which may indicate future overfitting.
+
+![image](https://github.com/Debsat/--Music-Genre-Classification-in-Pytorch/assets/114963575/1d422ef8-ea58-41d4-9832-c389c97cd3d2)
+
+Observing the confusion matrix, the model showed good results for three classes, `country`, `metal` and `pop`, respectively.
+For the other classes it performed reasonably well, but still presents confusing classifications for some classes.
+
+### Xception
+
+![image](https://github.com/Debsat/--Music-Genre-Classification-in-Pytorch/assets/114963575/8a3897d6-83aa-4d30-b531-bd6a48a2665f)
+
+Observing the loss curves for training and validation, after 10 epochs the model did not suffer from overfitting but it appears that it will suffer with more epochs. Training accuracy increases and in validation it remains constant, not exceeding 78%, which may indicate future overfitting.
+
+![image](https://github.com/Debsat/--Music-Genre-Classification-in-Pytorch/assets/114963575/6d91f80a-b6c3-40eb-9150-3fec5580ab48)
+
+Observing the confusion matrix, we see that the model presents improvements in relation to the previous simpler networks and the Resnet50 model. The model performed well in seven different classes, `classical`, `hiphop`, `metal`, `jazz`, `country`, `blues` and `pop` classes, respectively. For the other classes, he achieved a 60% accuracy rate, demonstrating that he was able to capture relevant information for discrimination. No class performed poorly.
+
 ## References
 
 https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification
