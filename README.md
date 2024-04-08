@@ -29,3 +29,15 @@ It is possible to notice that the dataset is balanced.
 Only one `jazz` class file is missing, but it does not compromise class balance.
 
 ![image](https://github.com/Debsat/--Music-Genre-Classification-in-Pytorch/assets/114963575/dcaad424-c66e-448a-9488-828b0376d4c3)
+
+## References
+
+https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification
+
+https://discuss.pytorch.org/t/how-to-do-a-stratified-split/62290
+
+https://christianbernecker.medium.com/how-to-create-a-confusion-matrix-in-pytorch-38d06a7f04b7
+
+https://rumn.medium.com/part-1-ultimate-guide-to-fine-tuning-in-pytorch-pre-trained-model-and-its-configuration-8990194b71e
+
+https://github.com/huggingface/pytorch-image-models/tree/main/timm/models
