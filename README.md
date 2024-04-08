@@ -22,3 +22,10 @@ The dataset has three types of audio representations:
 For this project, only the image dataset will be considered.
 
 https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification
+
+![image](https://github.com/Debsat/--Music-Genre-Classification-in-Pytorch/assets/114963575/68178cd7-19c4-4b0b-873c-af3a27e704cb)
+
+It is possible to notice that the dataset is balanced.
+Only one `jazz` class file is missing, but it does not compromise class balance.
+
+![image](https://github.com/Debsat/--Music-Genre-Classification-in-Pytorch/assets/114963575/dcaad424-c66e-448a-9488-828b0376d4c3)
